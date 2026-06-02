@@ -13,7 +13,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 # Твой Telegram ID — чтобы получать предложения от пользователей
 # Узнай свой ID написав боту @userinfobot в Telegram
-ADMIN_ID = 8462022587  # ← замени на свой ID
+ADMIN_ID = int(os.environ.get("ADMIN_ID", 0))  # ← замени на свой ID
 
 # =============================================
 # ДАННЫЕ ЛИЦЕЯ (редактируй под себя)
